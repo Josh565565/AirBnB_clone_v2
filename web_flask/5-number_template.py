@@ -59,6 +59,5 @@ def template(n):
     """display a HTML page only if n is an integer: H1 tag: “Number: n” inside the tag BODY"""
     return render_template("5-number.html", n=n)
 
-
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
