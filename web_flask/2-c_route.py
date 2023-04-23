@@ -22,11 +22,10 @@ def hbnb():
 
 
 
-@app.route("/c/<string:text>", strict_slashes=False)
+@app.route("/c/<text>", strict_slashes=False)
 def c(text):
     """display “C ” followed by the value of the text variable (replace underscore _ symbols with a space"""
-    text = text.replace("_"," ")
-    return "c {}".format(text)
+    return "C {}".format(text.replace("_",( ))
 
 
 if __name__ == "__main__":
