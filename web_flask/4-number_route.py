@@ -47,7 +47,7 @@ def py(text="is cool"):
     return "Python {}".format(text)
 
 
-@app.route("/number/<int:n>" strict_slashes=False))
+@app.route("/number/<int:n>", strict_slashes=False))
 def num(n):
     """display “n is a number” only if n is an integer"""
     return "n {}".format(n)
