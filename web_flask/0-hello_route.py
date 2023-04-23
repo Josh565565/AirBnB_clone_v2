@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""
-A flask web app that:
-    listening on 0.0.0.0, port 5000
-    Routes:/
-    display “Hello HBNB!”
-    uses the option strict_slashes=False in your route definition
+"""Starts a Flask web application.
 
+The application listens on 0.0.0.0, port 5000.
+Routes:
+    /: Displays 'Hello HBNB!'
 """
 from flask import Flask
 
